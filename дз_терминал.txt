@@ -1,0 +1,116 @@
+1) Viola@DESKTOP-HOUDJV3 MINGW64 ~ (master)
+$ pwd
+/c/Users/Viola
+
+2) Viola@DESKTOP-HOUDJV3 MINGW64 ~ (master)
+$ mkdir foldername_1
+
+3) Viola@DESKTOP-HOUDJV3 MINGW64 ~ (master)
+$ cd foldername_1
+
+4) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ mkdir {1,2,3}
+
+5) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ cd 3
+
+6) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1/3 (master)
+$ touch app/{ 1.txt, 2.txt, 3.txt, 4.json, 5.json }
+touch: cannot touch 'app/{': No such file or directory
+
+7) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1/3 (master)
+$ mkdir {1,2,3}
+
+8) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1/3 (master)
+$ ls -la
+total 8
+drwxr-xr-x 1 Viola 197121 0 Apr 17 14:39 ./
+drwxr-xr-x 1 Viola 197121 0 Apr 17 14:25 ../
+drwxr-xr-x 1 Viola 197121 0 Apr 17 14:39 1/
+-rw-r--r-- 1 Viola 197121 0 Apr 17 14:37 1.txt,
+drwxr-xr-x 1 Viola 197121 0 Apr 17 14:39 2/
+-rw-r--r-- 1 Viola 197121 0 Apr 17 14:37 2.txt,
+drwxr-xr-x 1 Viola 197121 0 Apr 17 14:39 3/
+-rw-r--r-- 1 Viola 197121 0 Apr 17 14:37 3.txt,
+-rw-r--r-- 1 Viola 197121 0 Apr 17 14:37 4.json,
+-rw-r--r-- 1 Viola 197121 0 Apr 17 14:37 5.json}
+
+9,10,11) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1/3 (master)
+$ cat 2.txt,
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+12) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1/3 (master)
+$ cd ..
+
+13) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ mv /c/Users/Viola/foldername_1/3/2.txt, /c/Users/Viola/foldername_1
+
+Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ mv /c/Users/Viola/foldername_1/3/3.txt, /c/Users/Viola/foldername_1
+
+14) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ cp /c/Users/Viola/foldername_1/3/1.txt, /c/Users/Viola/foldername_1
+Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ cp /c/Users/Viola/foldername_1/3/4.json, /c/Users/Viola/foldername_1
+
+15) $ find /c/Users/Viola/foldername_1 -name 2.txt,
+/c/Users/Viola/foldername_1/2.txt,
+
+16) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ tail -f 3.txt | grep I ./3.txt
+Benedicite, Israel, Domino,
+
+17) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ head 3.txt
+Benedicite Dominum
+
+Benedicite, omnia opera Domini, Domino;
+laudate et superexaltate eum in saecula.
+
+Benedicite, caeli, Domino,
+benedicite, angeli Domini, Domino.
+
+Benedicite, aquae omnes, quae super caelos sunt, Domino,
+benedicat omnis virtutis Domino.
+
+18) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ tail 3.txt
+
+Benedicite, Anania, Azaria, Misael, Domino,
+iaudate et superexaltate eum in saecula.
+
+Benedicamus Patrem et Filium cum Sancto Spiritu;
+laudemus et superexaltemus eum in saecula.
+
+Benedictus es in firmamento caeli
+et laudabll
+Amen.
+
+19) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ less 3.txt
+
+*выводит на экране полный текст файла*
+
+20) Viola@DESKTOP-HOUDJV3 MINGW64 ~ (master)
+$ date
+Mon Apr 17 17:05:53 RTZ 2023
+
+Задание *
+
+1) Viola@DESKTOP-HOUDJV3 MINGW64 ~ (master)
+$ curl http://162.55.220.72:5005/terminal-hw-request
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   232  100   232    0     0   1977      0 --:--:-- --:--:-- --:--:--  1982<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+2) Viola@DESKTOP-HOUDJV3 MINGW64 ~/foldername_1 (master)
+$ bash script1.sh
+script1.sh: line 4: cd: foldername_1: No such file or directory
+file1.txt  file3.txt   file5.json  subfolder2
+file2.txt  file4.json  subfolder1  subfolder3
+
+
+
